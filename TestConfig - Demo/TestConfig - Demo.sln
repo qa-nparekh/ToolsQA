@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Niko - TestConfig", ".", "{25CA005B-A298-4AEF-B2EE-31B65AB30AD2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Niko - TestConfig"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\TeamCity\buildAgent\work\1026dca4bec423a1\Niko - TestConfig\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Niko - TestConfig\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Niko - TestConfig"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\TeamCity\buildAgent\work\1026dca4bec423a1\Niko - TestConfig\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Niko - TestConfig\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "6619"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25CA005B-A298-4AEF-B2EE-31B65AB30AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25CA005B-A298-4AEF-B2EE-31B65AB30AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

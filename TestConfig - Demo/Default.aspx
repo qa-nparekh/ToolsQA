@@ -27,7 +27,7 @@
         }
 
     </script>
-        <head>
+    <head>
         <meta charset="utf-8" />
         <title>jQuery UI Accordion - Default functionality</title>
         <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
@@ -39,13 +39,13 @@
             });
         </script>
     </head>
-
     <style type="text/css">
         .dvShow
         {
             display: block;
             visibility: visible;
         }
+
         .dvHide
         {
             display: none;
@@ -54,66 +54,137 @@
     </style>
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    <h2>
-        Automation Tests Configuration
-    </h2>
+    <h1 align="center"><b>Automation Test Configuration</b>
+    </h1>
     <br />
     <div style="text-align: center; font-weight: 600;">
-        <asp:Label ID="lblPath" runat="server" Text=""></asp:Label></div>
+        <asp:Label ID="lblPath" runat="server" Text=""></asp:Label>
+    </div>
     <input type="hidden" id="txtTempHdn" runat="server" value="0" />
     <div>
         <fieldset>
             <legend>Select Browser </legend>
+            
             <table>
                 <tr>
                     <td>
-                        <input id="chkFirefox" runat="server" type="radio" value="1" name="browser" checked />Firefox
+                 
+                    <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack=true 
+                     onselectedindexchanged ="DDL1_SelectedIndexChanged">
+                    <asp:ListItem Value="1">Chrome</asp:ListItem>
+                    <asp:ListItem Value="2">Firefox</asp:ListItem>
+                    <asp:ListItem Value="3">IE</asp:ListItem>
+                    </asp:DropDownList>
+
                     </td>
-                    <td>
-                        <input id="chkChrome" runat="server" type="radio" value="2" name="browser" />Chrome
-                    </td>
-                    <td>
-                        <input id="ChkIntExp" runat="server" type="radio" value="3" name="browser" />Internet
-                        Explorer
-                    </td>
-                    <%--  <td>
-                       <input id="ChkSafari" runat="server" type="radio" value="4" name="browser" />Safari 
-                    </td>--%>
                 </tr>
             </table>
         </fieldset>
     </div>
     <%--<div id="dvLCPanel" class="dvHide" >--%>
-    <fieldset>
-        <legend>
-            <input id="ChkRegister" type="checkbox" runat="server" onclick="javascript:CheckAll('tblRegister',this);"
-                value="SelectAll" />Registration Module</legend>
-    
-        <div id="accordion">
-        <h3>Dashboard Module</h3>
-            <div>
-            <table id="tblRegister">
-            <tr>
-                <td>
-                    <input id="ChkRegistrationVerification" runat="server" type="checkbox" value="RegistrationVerification" />
-                </td>
-                <td>
-                    TC_001: To verify user is able to click on 'Registration' link on Home page.<br/>TC_002: To veriy user is able to register with valid details.
-                </td>
-            </tr>
+
+    <%--<legend>
+            <input id="ChkRegister" type="checkbox" runat="server" onclick="javascript: CheckAll('tblRegister', this);"
+                value="SelectAll" />Public Training Module</legend>--%>
+    <div id="accordion">
+      
+        <h3>Registration Module</h3>
+        <div>
+
+             <table id="tblRegister">
+                <tr>
+                    <td>
+                        <input id="Checkbox2" type="checkbox" runat="server" onclick="javascript: CheckAll('tblRegister', this);"
+                            value="SelectAll" />
+                    </td>
+                    <td><b>Select All</b><br />
+                    </td>
+                </tr>
                 <tr>
                 <td>
-                    <input id="Checkbox1" runat="server" type="checkbox" value="RegistrationVerification" />
+                    <input id="ChkRegistrationVerification" runat="server" type="checkbox" value="TC1_RegistrationWithValidData" />
                 </td>
                 <td>
-                    TC_001: To verify user is able to click on 'Registration' link on Home page.<br/>TC_002: To veriy user is able to register with valid details.
+                    TC_001: To veriy user is able to register with valid details.
                 </td>
             </tr>
-           </table>
-                </div>
-    </fieldset>
-  
+                   <tr>
+                <td>
+                    <input id="ChkInvalidRegistrationVerification" runat="server" type="checkbox" value="TC2_RegistrationWithInvallidData" />
+                </td>
+                <td>
+                    TC_002: To veriy user is not able to register with invalid details.
+                </td>
+            </tr>
+          </table>
+        </div>
+        
+        <h3>Dashboard Module</h3>
+        <div>
+           <table id="tblDashboard">
+                <tr>
+                    <td>
+                        <input id="Checkbox1" type="checkbox" runat="server" onclick="javascript: CheckAll('tblDashboard', this);"
+                            value="SelectAll" />
+                    </td>
+                    <td><b>Select All</b><br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="Bulb" runat="server" type="checkbox" value="bulbTest case 1" />
+                    </td>
+                    <td>Bulb TestCase 1<br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="Dimmer" runat="server" type="checkbox" value="dimmerTest case 2" />
+                    </td>
+                    <td>Dimmer TestCase 2
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="Blinds" runat="server" type="checkbox" value="blindsTest case 3" />
+                    </td>
+                    <td>Blinds TestCase 3
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="Socket" runat="server" type="checkbox" value="socketTest case 4" />
+                    </td>
+                    <td>Socket TestCase 4
+                    </td>
+                </tr>
+            </table>
+        </div>
+         
+        <h3>Configuration Module</h3>
+        <div>
+            <table id="tblConfiguration">
+                <tr>
+                    <td>
+                        <input id="ChkRegister" type="checkbox" runat="server" onclick="javascript: CheckAll('tblConfiguration', this);"
+                            value="SelectAll" />
+                    </td>
+                    <td><b>Select All</b><br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="Config" runat="server" type="checkbox" value="Test case 1" />
+                    </td>
+                    <td>Configuratoin TestCase 1<br />
+                    </td>
+                </tr>
+         
+            </table>
+        </div>
 
+    </div>
+    <br />
     <%--</div>--%>
     <div style="text-align: center; white-space: nowrap;">
         <center>
@@ -126,15 +197,17 @@
                         |
                     </td>
                     <td>
-                        <a href="http://localhost:8080/job/LodieAutomation/" class="btn">Go to Jenkins to run
+                        <a href="http://localhost:85/project.html?projectId=ToolsQA&tab=projectOverview" class="btn">Go to TeamCity to run
                             suite(s) </a>
                     </td>
+                      <td>
+                        
+                    </td>
+                      
                 </tr>
             </table>
         </center>
     </div>
     <br />
     <br />
-        </div>
-
 </asp:Content>
