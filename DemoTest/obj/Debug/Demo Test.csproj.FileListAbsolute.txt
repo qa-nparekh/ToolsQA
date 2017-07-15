@@ -1,0 +1,35 @@
+E:\DemoTest\bin\Debug\Demo Test.dll.config
+E:\DemoTest\bin\Debug\Demo Test.dll
+E:\DemoTest\bin\Debug\Demo Test.pdb
+E:\DemoTest\bin\Debug\nunit-console-runner.dll
+E:\DemoTest\bin\Debug\nunit.core.dll
+E:\DemoTest\bin\Debug\nunit.core.interfaces.dll
+E:\DemoTest\bin\Debug\nunit.framework.dll
+E:\DemoTest\bin\Debug\nunit.mocks.dll
+E:\DemoTest\bin\Debug\nunit.util.dll
+E:\DemoTest\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+E:\DemoTest\bin\Debug\ThoughtWorks.Selenium.Core.dll
+E:\DemoTest\bin\Debug\WebDriver.dll
+E:\DemoTest\bin\Debug\WebDriver.Support.dll
+E:\DemoTest\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+E:\DemoTest\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+E:\DemoTest\bin\Debug\ThoughtWorks.Selenium.Core.pdb
+E:\DemoTest\bin\Debug\ThoughtWorks.Selenium.Core.xml
+E:\DemoTest\bin\Debug\WebDriver.pdb
+E:\DemoTest\bin\Debug\WebDriver.xml
+E:\DemoTest\bin\Debug\WebDriver.Support.pdb
+E:\DemoTest\bin\Debug\WebDriver.Support.xml
+E:\DemoTest\obj\Debug\ResolveAssemblyReference.cache
+E:\DemoTest\obj\Debug\Demo Test.dll
+E:\DemoTest\obj\Debug\Demo Test.pdb
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\Demo Test.dll.config
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\Demo Test.dll
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\Demo Test.pdb
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\nunit.framework.dll
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\nunit.mocks.dll
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\WebDriver.dll
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\WebDriver.Support.dll
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\obj\Debug\Demo Test.dll
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\obj\Debug\Demo Test.pdb

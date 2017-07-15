@@ -1,0 +1,23 @@
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\ToolQA.dll.config
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\ToolQA.dll
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\ToolQA.pdb
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\nunit.framework.dll
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\nunit.mocks.dll
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\WebDriver.dll
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\bin\Debug\WebDriver.Support.dll
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\obj\Debug\ToolQA.dll
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\obj\Debug\ToolQA.pdb
+C:\Users\nik\Desktop\My Demo\My Demo\DemoTest\obj\Debug\ToolsQA.csprojResolveAssemblyReference.cache
+D:\DemoTest\bin\Debug\ToolQA.dll.config
+D:\DemoTest\bin\Debug\ToolQA.dll
+D:\DemoTest\bin\Debug\ToolQA.pdb
+D:\DemoTest\bin\Debug\nunit.framework.dll
+D:\DemoTest\bin\Debug\nunit.mocks.dll
+D:\DemoTest\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+D:\DemoTest\bin\Debug\ThoughtWorks.Selenium.Core.dll
+D:\DemoTest\bin\Debug\WebDriver.dll
+D:\DemoTest\bin\Debug\WebDriver.Support.dll
+D:\DemoTest\obj\Debug\ToolQA.dll
+D:\DemoTest\obj\Debug\ToolQA.pdb
